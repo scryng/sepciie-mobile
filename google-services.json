@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096664099434",
+    "project_id": "sepciie",
+    "storage_bucket": "sepciie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096664099434:android:b980d5c57f2c8bbcccf813",
+        "android_client_info": {
+          "package_name": "com.gscryng.sepciie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW747-Ne3MPNxcN86RQTBJAVJ3hNeUbk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

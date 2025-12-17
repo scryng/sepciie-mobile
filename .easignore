@@ -1,0 +1,55 @@
+# Arquivos de Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+# Nunca envie suas chaves de API ou segredos para o repositório!
+.env
+.env.local
+.env.*.local
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro Bundler
+.metro-health-check*
+
+# Build do TypeScript
+*.tsbuildinfo
+
+# Diretórios de build nativo (iOS/Android)
+# Mesmo que você não os tenha agora, é bom ignorá-los.
+android/
+ios/
+
+# Arquivos de certificados e chaves
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Pasta de exemplo (se não for necessária no repositório)
+app-example/

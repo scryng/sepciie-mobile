@@ -1,0 +1,46 @@
+# Ignorar dependências e build
+node_modules/
+build/
+dist/
+.expo/
+.expo-shared/
+coverage/
+
+# Arquivos de configuração de dependências
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de ambiente
+.env
+.env.*
+expo-env.d.ts
+
+# Configs do EAS
+app.json
+app.json.sample
+
+# Configs de TypeScript e Babel
+tsconfig.json
+babel.config.js
+
+# Arquivos específicos do Metro bundler
+metro.config.js
+
+# Configurações do NativeWind
+nativewind-env.d.ts
+tailwind.config.js
+
+# Documentação e markdown
+README.md
+docs/
+
+# Logs
+*.log
+
+# iOS e Android nativos (geralmente não editados por Prettier)
+android/
+ios/
+
+# Outros
+.idea/

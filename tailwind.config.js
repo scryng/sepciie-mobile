@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // NOTE: Update this to include the paths to all files that contain Nativewind classes.
-  content: ['./src/app/**/*.{js,jsx,ts,tsx}', './src/components/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/app/**/*.{js,jsx,ts,tsx}',
+    './src/components/**/*.{js,jsx,ts,tsx}',
+  ],
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
       colors: {
         // Basic colors
-        'bandw': 'var(--color-bandw)',
+        bandw: 'var(--color-bandw)',
 
         // Background colors
         background: 'var(--color-background)',
@@ -15,6 +18,7 @@ module.exports = {
         'background-muted': 'var(--color-background-muted)',
         surface: 'var(--color-surface)',
         card: 'var(--color-card)',
+        'card-secondary': 'var(--color-card-secondary)',
         header: 'var(--color-header)',
 
         // Foreground/Text colors
@@ -24,14 +28,15 @@ module.exports = {
         text: 'var(--color-text)',
         'text-muted': 'var(--color-text-muted)',
         'card-foreground': 'var(--color-card-foreground)',
+        'text-button-primary': 'var(--color-text-button-primary)',
 
-        // Border and input colors        
+        // Border and input colors
         border: 'var(--color-border)',
         input: 'var(--color-input)',
         'input-border': 'var(--color-input-border)',
         ring: 'var(--color-ring)',
 
-        // Primary colors - LETPP brand colors
+        // Primary colors
         primary: 'var(--color-primary)',
         'primary-foreground': 'var(--color-primary-foreground)',
         secondary: 'var(--color-secondary)',
@@ -53,7 +58,7 @@ module.exports = {
         'button-activate': 'var(--color-button-activate)',
         'button-deactivate': 'var(--color-button-deactivate)',
         'status-active': 'var(--color-status-active)',
-        'status-inactive': 'var(--color-status-inactive)'
+        'status-inactive': 'var(--color-status-inactive)',
       },
     },
   },
